@@ -30,3 +30,6 @@ print(c)
 
 h="MY name is \"faraz\""
 print(h)
+
+print(isinstance(h,int))     #check the type true or not
+
