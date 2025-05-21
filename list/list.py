@@ -1,4 +1,5 @@
 list=['apple','banana','watermelon','dates']
+print(len(list))
 print(list)
 print(type(list))
 if "mango" not in list:
@@ -51,4 +52,26 @@ def func(n):
  return abs(n-60)
 number.sort(key=func)
 print(number)
+
+
+#copylist  1-.copy()  2- list(lists) 3- list[:]
+hen=[]
+cities=province.copy()
+print(cities)
+cities=number[:]
+print(cities)
+province.extend(number)
+cities=province.copy()
+print(province[1])
+
+#join list 
+
+cities=number+hen
+
+print(cities.count(1))
+print(cities.index(1))
+
+
+
+
 
